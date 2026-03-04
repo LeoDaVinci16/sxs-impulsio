@@ -74,7 +74,7 @@ def preview_plot(folder_path, plot_folder):
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     folder_path = os.path.abspath(os.path.join(script_dir, "..", "data", "raw"))
-    plot_folder = os.path.abspath(os.path.join(script_dir, "..", "plots"))
+    plot_folder = os.path.abspath(os.path.join(script_dir, "..", "outputs", "plots"))
     os.makedirs(plot_folder, exist_ok=True)
 
     # folder_path = r"C:\Users\ArnauCoronado\Documents_local\supersonic-at\data\raw" original path on creator computer
